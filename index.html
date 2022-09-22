@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>document</title>
+    <style>
+      body{
+        margin:0;
+      }
+      .navbar{
+        height: 85px;
+        width:100%;
+        display: flex;
+        background-color: #ffffff;    
+      }
+      .left{
+        width:20%;
+        height: 100%;
+        display:flex;
+        justfy-content:center;     
+
+      }
+
+      .middle{
+        width:60%;
+        height: 100%;
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+      }
+
+      .right{
+        width:20%;
+        height: 100%;  
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sub-links{
+        font-size: 20px;
+        font-weight:bold;
+      }
+      .account{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#00B9F1;
+        padding: 2px 2px 2px 20px;
+        border-radius: 20px;
+        color:white;
+        font-weight: bold;
+        font-size: 20px;
+    
+      }
+      .abc{
+        margin-left:10px;
+      }
+
+
+      .kyc{
+        width:100%;
+        height:50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F6;
+        font-size: 20px; 
+
+      }
+
+      
+      .wallet{
+        margin-right:5px;
+      }
+
+
+      .section-2{
+        width:100%;
+        height: 600px;
+        display:flex;
+        background-color: #e8f8fd;
+      }
+
+     .left-section{
+      width:50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+      
+     .right-section{
+      width:50%;
+      height: 100%;
+      display: flex;
+      justify-content:flex-end;
+      padding-top:70px;
+
+     }
+
+     .logo{
+      height: 88px;
+      width: 88px;
+   
+     }
+
+     .head{
+      font-size: 55px;
+      font-weight: 50px;
+     }
+
+     .para{
+      font-size: 20px;
+      font-weight:500;
+      width:450px;
+      line-height: 30px;
+     }
+
+     .btn{
+      border-radius:40px;
+      color:white;
+      padding:15px 24px 15px 24px;
+      background-color: black;
+      border:0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:20px;
+     }
+
+     .right-logo{
+      height: 528px;
+      width: 528px;
+     }
+
+     
+
+     .recharge-section1{
+      width: 100%;
+      background-color: #00B9F1;
+      color:white;    
+      height: 300px; 
+     }
+
+     .inner-section{
+      width: 75%;
+      margin:auto;
+     }
+
+     .headings{
+      font-size:36px;
+      padding-top:20px;
+      font-weight;
+     }
+
+     .rc-child{
+      display:flex;
+      justify-content: space-between;
+      margin-top:40px;
+      padding-bottom: 50px;
+
+     }
+
+     .rc-logo{
+      width: 64px;
+      height:64px;
+     }
+
+  .inner-div{
+    line-height: 10px;
+    font-weight: bold;
+  }
+
+  .third-heading{
+    color:black;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .third-box{
+    width:100%;
+    height: 600px;
+    display:flex;
+    background-color: #e8f8fd;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-left{
+    width:50%;
+    height:500px;
+  }
+
+  .third-right{
+    width:50%;
+    height:500px;
+
+  }
+
+  .py-emg{
+    margin-left:20px;
+    height:100px;
+    width:100px;
+  }
+
+        
+  .box4-heading{
+    margin-left:20px;
+    color:black;
+    font-size: 40px;
+    margin-top:-20px;
+
+  }
+
+  .box4-para{
+    margin-left:20px;
+    color: black;
+    font-size: 20px;
+  }
+
+  .box4-img{
+    height:450px;
+  }
+
+  .box-5-section{
+    width:100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-color:#e8f8fd;
+    margin-top:20px;
+  }
+
+  .box-5-left-section{
+    width:50%;
+    height: 600px;
+  }
+
+  .box-5-right-section{
+    width:50%;
+    height: 600px;
+  }
+
+.box5-logo{
+  height:100px;
+  width:100px;
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.box5-heading{
+  color:black;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left:20px;
+ }
+
+ .box5-para{
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+  margin:20px;
+ }
+
+ .box-5img{
+  height:450px;
+ }
+
+
+
+
+
+
+ .box-6-section{
+    width:100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    background-color:#e8f8fd;
+    margin-top:20px;
+  }
+
+  .box-6-left-section{
+    width:50%;
+    height: 600px;
+  }
+
+  .box-6-right-section{
+    width:50%;
+    height: 600px;
+    justify-content: center;
+  }
+
+.box6-logo{
+  height:90px;
+  
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.box6-heading{
+  color:black;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left:20px;
+ }
+
+ .box6-para{
+  color:black;
+  font-size: 20px;
+  margin:20px;
+ }
+
+ .box-6img{
+  height:550px;
+ }
+
+.btn2{
+  border-radius:40px;
+      color:white;
+      padding:15px 24px 15px 24px;
+      background-color: #002E6E;
+      border:0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:20px;
+  
+}
+
+
+
+
+
+
+.box-7-section{
+  height: 800px;
+  width: 100%;
+  margin-top:45px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.box-7-left-section{
+  width: 50%;
+  height: 700px;
+  background-color: #e8f8fd;
+  border-radius: 3px;
+  margin-right:2px;
+  margin-left:2px;
+  
+}
+
+.box-7-right-section{
+  width: 50%;
+  height: 700px;
+  align-items: center;
+  border-radius: 3px;
+  
+  background-color: #e8f8fd;
+  margin-left:10px;
+  margin-right:2px;
+
+}
+
+.box7-logo{
+  height: 100px;
+}
+
+.box7-heading{
+  font-size: 50px;
+  color: black;
+
+}
+
+.box7-para{
+  color:black;
+  font-size: 25px;
+}
+
+.box7-img{
+  height: 300px;
+}
+
+
+.box7-logo2{
+  margin-top:80px;
+ width:150px;
+}
+
+.box7-heading2{
+  font-size: 50px;
+  color: black;
+
+}
+
+.box7-para2{
+  color:black;
+  font-size: 25px;
+}
+
+.box7-img2{
+  height: 300px;
+}
+
+
+
+
+
+.box8-section{
+        width:100%;
+        height: 600px;
+        display:flex;
+        background-color: #e8f8fd;
+      }
+
+     .box8-left-section{
+      width:50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+      
+     .box8-right-section{
+      width:50%;
+      height: 100%;
+      display: flex;
+      justify-content:flex-end;
+      padding-top:70px;
+
+     }
+
+     .box8-logo{
+      height:30px;
+      margin-left:20px;
+      margin-top:15px;
+   
+     }
+
+     .box8-head{
+      color:black;
+      font-size: 55px;
+      margin-left:20px;
+      font-weight: 50px;
+     }
+
+     .box8-para{
+      font-size: 20px;
+      font-weight:500;
+      width:450px;
+      color:black;
+      line-height: 30px;
+      margin-left:20px;
+     }
+
+     .box8-right-logo{
+      height: 528px;
+      width: 528px;
+     }
+
+     .box8-heading{
+      color:black;
+      font-size: 55px;
+      font-weight: bold;
+     }
+
+     .box9-section{
+      width:100%;
+      display: flex;
+      height:700px;
+      margin-top:60px;
+     }
+
+     .box9-left{
+      width:50%;
+      height:600px;
+      padding-top: 50px;
+     }
+
+     .box9-right{
+      width:50%;
+      height:600px;
+     }
+
+     .box-9img{
+      height: 400px;
+      margin-left:5px;
+      margin-top:15px;
+
+     }
+
+     .box-9-logo{
+      height:50px;
+      margin-top:20px;
+      margin-left:20px;
+      margin-left:60px;
+ 
+     }
+
+     .box-9-head{
+      font-weight: bold;
+      font-size: 40px;
+      color:black;
+      margin-left:60px;
+     }
+
+     .box9-para{
+      margin-top:20px;
+      margin-left:60px;
+      color:black;
+      font-size: 20px;
+      font-weight: bold;
+     }
+
+     .btn3{
+      color:white;
+      background-color: #002E6E;
+      border-radius: 20px;
+      margin-left:60px;
+      margin-top:20px;
+      font-size: 25px;
+      padding:10px;
+     }
+
+     .logo-10{
+      width:100px;
+     }
+
+     .para10{
+      color:black;
+      font-size: 20px;
+     }
+
+     .head10{
+      color:black;
+      font-size:40px;
+      margin-bottom: 60px;
+      margin-top: 60px;
+
+     }
+
+     .right-logo10{
+      height: 450px;
+     }
+
+
+
+
+    .flex-heading{
+      color:black;
+      font-size: 50px;
+      margin-top:150px;
+
+    }
+
+    .container{
+      display:flex;
+      justify-content: space-between;
+      margin-top:40px;
+      height:600px;
+      width:100%;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+ }
+   .items{
+    margin:15px;
+    width:200px;
+    height:500px;
+   }
+
+   .flex-first{
+    height: 200px;
+   }
+
+   .flex-head{
+    color:black;
+   }
+
+   .flex-para{
+    margin-top:20px;
+    color:black;
+   }
+
+   .flex-bold{
+    margin-left:15px;
+    margin-top:15px;
+   }
+
+
+
+
+     </style>   
+
+</head>
+<body>
+ 
+  <div class="navbar">
+    <div class="left">
+    <img src="https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png"/>
+    </div>
+    <div class="middle">
+        <p class="sub-links">paytm for customer</p>
+        <p class="sub-links">paytm for business</p>
+        <p class="sub-links">company</p>
+        <p class="sub-links">investors relations</p>
+        <p class="sub-links">career</p>
+
+    </div>
+    <div class="right">
+     <div class="account">
+        sign in
+        <img class=abc" src="https://assetscdn1.paytm.com/frontendcommonweb/9a65db05.svg"/>
+     </div>
+    </div>
+
+    </div>
+    <p class="kyc">
+      <b class="wallet">No Wallet KYC Required</b>😊to pay using UPI on Paytm.Learn more.  
+     </p>
+     
+ 
+    <div class="section-2">    
+      <div class="left-section">
+       <div>
+
+           <img class="logo"
+           src="https://assetscdn1.paytm.com/images/catalog/view/310944/1654517453942.png"
+           />
+           <h1 class="head">
+            India's Most-loved<br/> Payments App
+            </h1>
+            
+            <p class="para">
+              Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.
+              </p>
+             
+              <button class="btn">
+                Download Paytm App</button>
+
+          </div>
+      </div>
+
+      <div class="right-section">
+       <img class="right-logo" src="a1.png"/>
+      </div>
+      </div>
+
+     
+      
+<div class="recharge-section1">
+  <div class="inner-section">
+    <h2 class="headings">Recharge & Pay On Paytm.</h2>
+    <div class="rc-child">
+     <div>
+       <img class="rc-logo" src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png"/>
+          <div class="inner-div">
+            <p>Recharge</p>
+            <p>Prepared</p>
+            <p>Mobile</p>
+          </div>       
+     </div>
+     <div>
+      <img class="rc-logo" src="https://assetscdn1.paytm.com/images/catalog/view_item/733300/1626778824903.png"/>
+         <div class="inner-div">
+           <p>Pay</p>
+           <p>Rent</p>
+           <p>Payment</p>
+         </div>       
+    </div>
+    <div>
+      <img class="rc-logo" src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png"/>
+         <div class="inner-div">
+           <p>Pay</p>
+           <p>Electricity</p>
+           <p>Bill</p>
+         </div>       
+    </div>
+
+    <div>
+      <img class="rc-logo" src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png"/>
+         <div class="inner-div">
+           <p>Pay</p>
+           <p>DTH</p>
+           <p>Connection</p>
+         </div>       
+    </div>
+    <div>
+      <img class="rc-logo" src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png"/>
+         <div class="inner-div">
+           <p>Book</p>
+           <p>Gas</p>
+           <p>Cylender</p>
+         </div>       
+    </div>
+    <div>
+      <img class="rc-logo" src="https://assetscdn1.paytm.com/images/catalog/view_item/733304/1627454209116.png"/>
+         <div class="inner-div">
+           <p>Pay</p>
+           <p>Credit</p>
+           <p>card bill</p>
+         </div>       
+    </div>
+
+    <div>
+      <img class="rc-logo" src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png"/>
+         <div class="inner-div">
+           <p>All</p>
+           <p>Payment</p>
+           <p>Services</p>
+         </div>       
+    </div>
+  </div>
+
+
+
+
+<div>
+<h1 class="third-heading">Paytm payment instrument</h1>
+</div>
+<div class="third-box">
+  <div class="third-left">
+    <div>
+       <img class="py-emg" 
+       src="https://assetscdn1.paytm.com/images/catalog/view/307185/1617861564011.png"/>
+       <h6>paytm wallet</h6>
+        
+       <h1 class="box4-heading">The Fastest Way to<br/> Pay In-store & Online.</h1>
+
+       <p class="box4-para">Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and apps.</p>
+
+       <button class="btn">download the app</button>
+
+      </div>
+  </div>
+
+  <div class="third-right">
+    <img class="box4-img"src="a2.png"/>
+  </div>
+</div>
+
+
+
+<div class="box-5-section">
+   <div class="box-5-left-section">
+       <img class="box5-logo"
+        src="https://assetscdn1.paytm.com/images/catalog/view/307186/1615957674521.png"/>
+
+        <h1 class="box5-heading">Pay anyone directly <br>from your bank <br> account.</h1>
+
+        <p class="box5-para">Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm Wallet or Directly from your Bank Account. Plus, send & receive money from anyone.</p>
+       
+        <button class="btn">Download the App</button>
+      </div>
+
+
+   <div class="box-5-right-section">
+     <img class="box-5img"
+     src="a3.png"/>
+  </div>
+  
+</div>
+
+
+
+
+
+<div class="box-6-section">
+  <div class="box-6-left-section">
+      <img class="box6-logo"
+       src="https://assetscdn1.paytm.com/images/catalog/view/307191/1613622537678.png"/>
+
+       <h1 class="box6-heading">Want it?
+        No more waiting for it.</h1>
+
+       <p class="box6-para">With Paytm Postpaid, your wishlist doesn't have to be on the waitlist. Shop for the things you want today and pay for them next month.</p>
+      
+       <button class="btn2">learn more</button>
+     </div>
+
+
+  <div class="box-6-right-section">
+    <img class="box-6img"
+    src="a4.png"/>
+ </div>
+ 
+</div>
+
+
+
+
+<div class="box-7-section">
+  <div class="box-7-left-section">
+    <img class="box7-logo"
+    src="https://assetscdn1.paytm.com/images/catalog/view_item/853975/1640242865113.png"/>
+    
+    <h1 class="box7-heading">Unlimited Cashback
+      Every time</h1>
+
+    <p class="box7-para">Paytm HDFC Bank Select Credit Card. A card with assured Cashback and incredible offers.</p>
+     
+    <img class="box7-img"
+    src="a5.png"/>
+
+  </div>
+
+  <div class="box-7-right-section">
+    <img class="box7-logo2"
+    src="https://assetscdn1.paytm.com/images/catalog/view_item/853976/1640242163727.png"/>
+    
+    <h1 class="box7-heading2">Indias Most Sincere Credit Card</h1>
+
+    <p class="box7-para2">paytm SBC card SELECT - with intelligent features & Great Rewards that never Expir</p>
+     
+    <img class="box7-img2"
+    src="a6.png"/>
+
+  </div>
+
+</div>
+
+
+
+<h2 class="box8-heading">Financial Services by Paytm
+</h2>
+<div class="box8-section">    
+  <div class="box8-left-section">
+   <div>
+       <img class="box8-logo"
+       src="https://assetscdn1.paytm.com/images/catalog/view/307193/1617696576778.png"
+       />
+       <h1 class="box8-head">
+        India's most sincere bank.
+        </h1>
+        <p class="box8-para">
+          Paytm Payments Bank offers secure, transparent and risk-free banking at your fingertips. With instant account opening, virtual debit card and zero balance requirements, experience the future of banking today. </p>
+          <button class="btn2">
+            Learn More</button>
+
+      </div>
+  </div>
+
+  <div class="box8-right-section">
+   <img class="box8-right-logo" src="a7.png"/>
+  </div>
+  </div>
+
+
+
+
+
+  <div class="box9-section">
+    <div class="box9-left">
+        <img class="box-9img"
+        src="a8.png"/>
+     </div>
+
+     <div class="box9-right">
+         <img class="box-9-logo" 
+         src="https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png"/>
+
+         <h1 class="box-9-head">Build Long-term <br> Wealth & Achieve </br> your Goals.</h1>
+
+         <p class="box9-para">Investing on Paytm Money is transparent, low-cost and commission-free. Buy stocks & mutual funds that can help you create wealth & realise your dreams.</p>
+
+         <button class="btn3">Learn More </button>
+    </div>
+  </div>
+
+    
+
+  
+
+  <div class="section-2">    
+    <div class="left-section">
+     <div>
+         <img class="logo-10"
+         src="https://assetscdn1.paytm.com/images/catalog/view/308775/1653901470333.jpeg"
+         />
+         <h1 class="head10">
+          Insurance made easy.
+          </h1>
+          <p class="para10">
+            Buying insurance does not have to be tedious, time-consuming & confusing. Paytm Insurance removes the worry of getting insured by making it simple, convenient & easy-to-understand.
+           </p>
+            <button class="btn2">
+              learn more</button>
+
+        </div>
+    </div>
+
+    <div class="right-section">
+     <img class="right-logo10" src="a9.png"/>
+    </div>
+    </div>
+
+
+    <h1 class="flex-heading">Business Tools to help <br/> your business grow</h1>
+    <div class="container">
+        <div class="items">
+          <img class="flex-first" 
+          src="https://assetscdn1.paytm.com/images/catalog/view_item/854033/1626081565192.png"/>        
+          <h1 class="flex-head">POS Billing
+            Software</h1>
+  
+          <p class="flex-para">Say Hello to Smart Retail Business Management
+
+            <br/><b class="flex-bold">Learn More</b></p>
+
+        </div>
+        <div class="items">
+          <img class="flex-first" 
+          src="https://assetscdn1.paytm.com/images/catalog/view_item/854035/1626081071077.png"/>        
+          <h1 class="flex-head">Paytm for
+            Business App</h1>
+  
+          <p class="flex-para">Everything you need to manage your business on your phone
+
+            <br/><b class="flex-bold">Learn More</b></p>
+
+        </div>
+        <div class="items">
+          <img class="flex-first" 
+          src="https://assetscdn1.paytm.com/images/catalog/view_item/854036/1656568216166.png"/>        
+          <h1 class="flex-head">Advertise on
+            Paytm</h1>
+  
+          <p class="flex-para">Grow your business by advertising on India’s largest mobile business
+
+            <br/><b class="flex-bold">Learn More</b></p>
+
+        </div>
+        <div class="items">
+          <img class="flex-first" 
+          src="https://assetscdn1.paytm.com/images/catalog/view_item/854038/1626081814411.png"/>        
+          <h1 class="flex-head">Business
+            Khata</h1>
+  
+          <p class="flex-para">Managing Khata made easy
+
+            <br/><b class="flex-bold">Learn More</b></p>
+
+        </div>
+ 
+    </div>
+
+
+
+    </body>
+</html>
+
